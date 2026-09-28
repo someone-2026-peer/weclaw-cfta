@@ -1,0 +1,9 @@
+{"prompt_id": "s_L1_1", "complexity": "L1", "text": "现在几点了"}
+{"prompt_id": "s_L1_2", "complexity": "L1", "text": "今天日期是多少"}
+{"prompt_id": "s_L1_3", "complexity": "L1", "text": "苏州今天天气怎么样"}
+{"prompt_id": "s_L2_1", "complexity": "L2", "text": "查一下杭州西湖的开放时间和门票"}
+{"prompt_id": "s_L2_2", "complexity": "L2", "text": "查一下故宫的开放时间和门票价格"}
+{"prompt_id": "s_L2_3", "complexity": "L2", "text": "搜索一下苏州拙政园的门票价格和开放时间"}
+{"prompt_id": "s_L3_1", "complexity": "L3", "text": "查一下上海的天气和今天的日期"}
+{"prompt_id": "s_L3_2", "complexity": "L3", "text": "查一下北京和上海的天气，比较哪个城市温度更高"}
+{"prompt_id": "s_L3_3", "complexity": "L3", "text": "查一下今天的日期，再查一下苏州今天天气怎么样"}

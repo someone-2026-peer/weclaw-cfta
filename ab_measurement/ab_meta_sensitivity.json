@@ -1,0 +1,43 @@
+{
+  "experiment": "cfta_sensitivity_complexity_x_thinking",
+  "date": "2026-09-28T19:34:20",
+  "git_commit": "43348ce0faeddfa63fbdc3ea008d3650b3290df6",
+  "model_key": "deepseek-v4-flash",
+  "thinking_mode": "model",
+  "thinking_model_map": {
+    "off": "deepseek-v4-flash",
+    "on": "deepseek-v4-pro"
+  },
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "cpu": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "n_prompts": 9,
+  "complexity_tiers": [
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "thinking_axis": [
+    "off",
+    "on"
+  ],
+  "rep": 2,
+  "warmup": 1,
+  "seed": 20260928,
+  "sleep_sec": 3.0,
+  "trials_written": 72,
+  "elapsed_sec": 780.6,
+  "throttle_cooldowns": 0,
+  "fail_threshold": 3,
+  "cooldown_sec": 180.0,
+  "prompts_file": "prompts_sensitivity_complexity.jsonl",
+  "prompts_sha1": "c16295a88288",
+  "safety": {
+    "readonly_whitelist": true,
+    "removed_tools_n": 81,
+    "max_steps": 8,
+    "trial_timeout_sec": 90.0,
+    "note": "沿用 ab_harness 只读白名单与执行层拦截；本实验不覆盖 §5.2 冻结档"
+  },
+  "thinking_injection": "extra_body.thinking.type via monkeypatched registry.chat/chat_stream"
+}

@@ -6,13 +6,17 @@ Frozen, review-relevant artifacts for the manuscript:
 > Submission to *The Computer Journal* (OUP).
 
 This repository is a **self-contained proof snapshot**: it bundles the manuscript source, the raw
-end-to-end wall-clock A/B logs, the aggregate statistics, the experiment protocol, and one
-**standalone analysis script that re-derives every paired figure in §5.2 of the paper directly from
-the raw logs using only NumPy/SciPy — without importing the WeClaw agent codebase.** This lets a
-reviewer independently verify the headline latency result.
+end-to-end wall-clock A/B logs, the aggregate statistics, the experiment protocol, and two
+**standalone analysis scripts that re-derive the paper's latency figures directly from the raw
+logs** — `analysis/recompute_stats.py` (every paired figure in §5.2, NumPy/SciPy only) and
+`ab_measurement/ab_analyze_sensitivity.py` (every cell of the §5.5 sensitivity matrix, Python
+standard library only) — **without importing the WeClaw agent codebase.** This lets a reviewer
+independently verify both the headline latency result and its sensitivity decomposition.
 
 Reproducibility contract: the manuscript and all artifacts are archived under the release **tag
-`paper-cfta-ab-v1`**.
+`paper-cfta-ab-v1`**; the §5.5 sensitivity-probe artifacts (raw 72-trial logs, metadata, prompt
+set, aggregate summary, analysis and collection scripts) were added in a later revision and are
+archived under **tag `paper-cfta-ab-v2`**.
 
 ---
 
@@ -40,7 +44,13 @@ Reproducibility contract: the manuscript and all artifacts are archived under th
 │   ├── ab_harness.py                           # live-collection harness (needs codebase)
 │   ├── ab_analyze.py / _pooled.py / _stratified.py  # analysis (needs codebase + temp raw)
 │   ├── safety_canary_guard.py                   # read-only guard self-check
-│   └── prompts_tooltrigger.py                   # corpus-sampling prompt builder (needs DB)
+│   ├── prompts_tooltrigger.py                   # corpus-sampling prompt builder (needs DB)
+│   ├── ab_raw_sensitivity.jsonl                 # §5.5 sensitivity probe: 72 raw trials
+│   ├── ab_meta_sensitivity.json                 #   probe run config (thinking mode, models)
+│   ├── prompts_sensitivity_complexity.jsonl     #   the 9-prompt complexity ladder (L1/L2/L3)
+│   ├── sensitivity_summary.json                 #   per-cell aggregate matrix
+│   ├── ab_analyze_sensitivity.py                # ★ standalone: re-derive §5.5 table (stdlib only)
+│   └── ab_harness_sensitivity.py                # probe collection driver (needs codebase)
 ├── evaluation/                    # telemetry methodology (§5.3, Tables status/routing/classifier)
 │   ├── experiment_results.json    #   aggregate telemetry statistics
 │   ├── experiment_stratified.json #   stratified telemetry statistics
@@ -78,6 +88,22 @@ Over **n = 38** clean prompt pairs. A nonparametric Wilcoxon signed-rank check o
 p = 0.090 (the mean reduction is driven by a long right tail in the synchronous arm; median
 per-pair reduction ≈ 11 %). This is disclosed in §5.2 rather than hidden.
 
+### Reproduce the sensitivity matrix (Section 5.5, tag `paper-cfta-ab-v2`)
+
+From the repository root, with Python ≥ 3.10 (standard library only, no external packages):
+
+```bash
+cd ab_measurement && python ab_analyze_sensitivity.py
+```
+
+The script reads `ab_raw_sensitivity.jsonl` (9 complexity-ladder prompts × 2 thinking modes ×
+2 arms × 2 repetitions = 72 trials, 0 errors, 0 throttle cooldowns), pairs sync vs CFTA per
+(prompt, thinking, repetition), compares TTUA only on CFTA-fired pairs and TTFR on all valid
+pairs, and prints the six-cell matrix that underlies the paper's §5.5 sensitivity table. It also writes
+`sensitivity_summary.json`. The collection driver `ab_harness_sensitivity.py` imports
+`ab_harness.py` (which needs the private codebase) and is shipped as a read-only methodology
+reference, like the other collection-channel scripts below.
+
 Compile the manuscript separately (needs a TeX distribution with the OUP `oup-authoring-template.cls`,
 xeCJK, and a CJK font for the one Chinese query example):
 
@@ -95,6 +121,9 @@ cd paper && ./compile_tcj.bat        # or: xelatex paper_tcj.tex  (twice)
 - The fixed 42-prompt A/B set and the pre-declared protocol.
 - The **standalone `recompute_stats.py`**, which fully reproduces every §5.2 paired figure from the
   raw logs with no dependency on the agent codebase.
+- The **§5.5 sensitivity-probe artifacts** (raw 72-trial logs, metadata, 9-prompt complexity
+  ladder, aggregate summary) and the **standalone `ab_analyze_sensitivity.py`**, which re-derives
+  every cell of the sensitivity table with the Python standard library only.
 - The telemetry aggregate JSONs (§5.3).
 
 **Available on request (to the editor / reviewers):**
