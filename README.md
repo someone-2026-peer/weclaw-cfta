@@ -16,7 +16,9 @@ independently verify both the headline latency result and its sensitivity decomp
 Reproducibility contract: the manuscript and all artifacts are archived under the release **tag
 `paper-cfta-ab-v1`**; the §5.5 sensitivity-probe artifacts (raw 72-trial logs, metadata, prompt
 set, aggregate summary, analysis and collection scripts) were added in a later revision and are
-archived under **tag `paper-cfta-ab-v2`**.
+archived under **tag `paper-cfta-ab-v2`**. The manuscript source at the repository head tracks
+the final revision of the paper (minor post-v2 prose edits are committed directly on the default
+branch); tags pin the frozen artifact snapshots and are never amended.
 
 ---
 
