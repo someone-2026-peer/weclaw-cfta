@@ -1,0 +1,42 @@
+{"prompt_id": "p001", "text": "哈喽，今天吉隆坡的天气怎么样？帮我看一下那个7月17号从吉隆坡到上海或者杭州的机票。", "text_hash": "02839234dcbd", "primary_intent": "casual_chat", "confidence": 0.305}
+{"prompt_id": "p002", "text": "讲一个故事给翁牧溪听", "text_hash": "09d32529a3ed", "primary_intent": "casual_chat", "confidence": 0.807}
+{"prompt_id": "p003", "text": "你能查历史聊天记录吗", "text_hash": "c2f96a0abdbd", "primary_intent": "chat_history_retrieval", "confidence": 0.316}
+{"prompt_id": "p004", "text": "看下聊天记录，然后检查下经验闭环数据库保存修复了没有", "text_hash": "a7871ab7ab91", "primary_intent": "chat_history_retrieval", "confidence": 0.302}
+{"prompt_id": "p005", "text": "请总结下昨天的聊天记录", "text_hash": "9a8cffe2d1ed", "primary_intent": "chat_history_retrieval", "confidence": 0.302}
+{"prompt_id": "p006", "text": "记录不完整，可能需要从历史聊天记录中挖掘", "text_hash": "e77eb9762e7b", "primary_intent": "chat_history_retrieval", "confidence": 0.316}
+{"prompt_id": "p007", "text": "今天天气怎么样", "text_hash": "f1a224b1179d", "primary_intent": "daily_assistant", "confidence": 0.805}
+{"prompt_id": "p008", "text": "parallel_search 量子计算在药物发现领域的最新进展2025", "text_hash": "094c37cb7f10", "primary_intent": "daily_assistant", "confidence": 0.805}
+{"prompt_id": "p014", "text": "来个英语口语练习：餐厅点餐", "text_hash": "16dac36aa029", "primary_intent": "education", "confidence": 0.807}
+{"prompt_id": "p015", "text": "来一次英语口语练习，海关", "text_hash": "d8759272fc52", "primary_intent": "education", "confidence": 0.805}
+{"prompt_id": "p016", "text": "我们来英语对话练习好吗", "text_hash": "80b8f76dd508", "primary_intent": "education", "confidence": 0.802}
+{"prompt_id": "p021", "text": "帮我查一下苏州亿太昶这家公司的工商信息", "text_hash": "f0fd57515f2f", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p022", "text": "陆游的著名诗歌有哪些", "text_hash": "ed7d4ba3273c", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p023", "text": "知识库有关于女性创业的研究吗，请详细阐述", "text_hash": "8d66112af69d", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p024", "text": "请检查论文项目78号的进度", "text_hash": "8234847b5168", "primary_intent": "research", "confidence": 0.302}
+{"prompt_id": "p025", "text": "帮我搜一篇本地论文库中关于企业心理管理的论文", "text_hash": "4f2fdbea5780", "primary_intent": "research", "confidence": 0.802}
+{"prompt_id": "p027", "text": "使用你所有的网络检索工具，你没有使用所有的能力", "text_hash": "18298d24defb", "primary_intent": "system_monitoring", "confidence": 0.811}
+{"prompt_id": "p028", "text": "NCT神经网络框架和翁勇刚", "text_hash": "cfcbf467e839", "primary_intent": "system_monitoring", "confidence": 0.811}
+{"prompt_id": "p029", "text": "增加一个每日任务：完成CSDN技术博客撰写，时间是全天", "text_hash": "d91fa1291b27", "primary_intent": "daily_assistant", "confidence": 0.3}
+{"prompt_id": "p030", "text": "不对，没有成功，现在微信检索，你检索后会打开微信的网络搜索页面，应该检索的是 联系人列表（使用 宽迪奥工作），你是不是使用了不正确的action工具", "text_hash": "2d8e40c4ad43", "primary_intent": "system_monitoring", "confidence": 0.315}
+{"prompt_id": "p031", "text": "帮我从网上搜一段适合抢板凳游戏的背景音乐，并发给我", "text_hash": "ddf908d81703", "primary_intent": "casual_chat", "confidence": 0.304}
+{"prompt_id": "p032", "text": "播放唐诗静夜思", "text_hash": "f33197374975", "primary_intent": "knowledge", "confidence": 0.301}
+{"prompt_id": "p033", "text": "生成的英语闪卡，缺少播放按钮，不能播放单词，请补充播放按钮", "text_hash": "8770d9cbb1d3", "primary_intent": "education", "confidence": 0.302}
+{"prompt_id": "p034", "text": "你查下聊天记录", "text_hash": "dee097b865bc", "primary_intent": "chat_history_retrieval", "confidence": 0.302}
+{"prompt_id": "p035", "text": "百科一下：量子计算", "text_hash": "8177c440ff45", "primary_intent": "daily_assistant", "confidence": 0.301}
+{"prompt_id": "p036", "text": "帮我查看当前系统状态", "text_hash": "e1f9ea5c13cf", "primary_intent": "system_monitoring", "confidence": 0.317}
+{"prompt_id": "p037", "text": "哈喽，今天的苏州天气怎么样？", "text_hash": "0d2dc1759a8b", "primary_intent": "casual_chat", "confidence": 0.305}
+{"prompt_id": "p038", "text": "李白有哪些著名古诗", "text_hash": "3c9a4f56e6ce", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p039", "text": "我要学习下心理学这门课程 按照研究生水平 请制定一个学习大纲 按照第一性原理规划学习计划和内容", "text_hash": "0f93e2b3ae64", "primary_intent": "education", "confidence": 0.302}
+{"prompt_id": "p040", "text": "请检索下历史聊天，看下曾经一共生成了多少篇论文", "text_hash": "7f166233655f", "primary_intent": "chat_history_retrieval", "confidence": 0.302}
+{"prompt_id": "p041", "text": "现在一共多少时间？能否在页面右上角实时显示倒计时秒数？（注意：暂停的时候倒计时也要暂停）", "text_hash": "1d4158f989f0", "primary_intent": "daily_assistant", "confidence": 0.307}
+{"prompt_id": "p042", "text": "查看系统性能指标", "text_hash": "891de1af85b3", "primary_intent": "system_monitoring", "confidence": 0.317}
+{"prompt_id": "p043", "text": "你好，晚上好帮我查一下那个香港的温度天气", "text_hash": "ecea91421df6", "primary_intent": "casual_chat", "confidence": 0.8}
+{"prompt_id": "p044", "text": "知识库工具缺失哪些依赖？", "text_hash": "fbbba974f2ed", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p045", "text": "海关英语练习", "text_hash": "e6035523adeb", "primary_intent": "education", "confidence": 0.802}
+{"prompt_id": "p046", "text": "检索下历史聊天对话中，关于刘悦的新员工培训计划", "text_hash": "a3bf1839a1b5", "primary_intent": "chat_history_retrieval", "confidence": 0.302}
+{"prompt_id": "p047", "text": "查看大事记时间线", "text_hash": "9461f816273d", "primary_intent": "daily_assistant", "confidence": 0.308}
+{"prompt_id": "p048", "text": "查看当前系统状态", "text_hash": "cd9c8f277609", "primary_intent": "system_monitoring", "confidence": 0.317}
+{"prompt_id": "p049", "text": "讲一个童话故事给我，适合4岁女儿听的", "text_hash": "45c309903fe3", "primary_intent": "casual_chat", "confidence": 0.807}
+{"prompt_id": "p050", "text": "帮我看下知识库中有什么", "text_hash": "d30ce4db6207", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p051", "text": "餐厅对话英语练习", "text_hash": "90a6bb631464", "primary_intent": "education", "confidence": 0.802}
+{"prompt_id": "p052", "text": "切换到历史聊天会话面板", "text_hash": "9326c841b383", "primary_intent": "chat_history_retrieval", "confidence": 0.302}

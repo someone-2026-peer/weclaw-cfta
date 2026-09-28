@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "date": "2026-08-08",
+    "data_sources": [
+      "tool_audit.db: 17,226 real tool calls (2026-05-25 ~ 2026-08-08)",
+      "history.db: 60,695 real session messages",
+      "detect_intent_with_confidence: real classifier from src/core/prompts.py"
+    ],
+    "seed": 20260808
+  },
+  "exp1_intent_classifier": {
+    "sample_size": {
+      "tool_needed": 500,
+      "pure_chat": 500
+    },
+    "tool_recall": 0.776,
+    "tool_miss_rate": 0.224,
+    "path3_rate_among_tool": 0.288,
+    "chat_fp_rate": 0.238,
+    "chat_path3_fp": 87,
+    "routing_accuracy": 0.769,
+    "path_distribution": {
+      "path1": 493,
+      "path2": 276,
+      "path3": 231
+    },
+    "confidence_stats": {
+      "tool_needed_mean": 0.395,
+      "pure_chat_mean": 0.162
+    }
+  },
+  "exp2_latency_statistics": {
+    "tool_duration_sec": {
+      "n": 15393,
+      "mean": 2.28,
+      "median": 0.12,
+      "std": 16.26,
+      "p90": 3.41
+    },
+    "model_response_sec": {
+      "n": 1351,
+      "mean": 9.25,
+      "median": 4.7,
+      "std": 11.39
+    },
+    "paired_samples": 2000,
+    "sync_latency_sec": {
+      "mean": 21.32,
+      "std": 29.27
+    },
+    "cfta_latency_sec": {
+      "mean": 9.3,
+      "std": 11.27
+    },
+    "reduction_sec_mean": 12.03,
+    "reduction_ci95": [
+      11.06,
+      12.99
+    ],
+    "reduction_pct_mean": 54.1,
+    "reduction_pct_median": 50.4,
+    "paired_t_test": {
+      "t": 24.49,
+      "p": 4.524e-116
+    },
+    "wilcoxon_test": {
+      "W": 0.0,
+      "p": 0.0
+    },
+    "cohens_d": 0.52,
+    "status_counts": {
+      "cancelled": 8,
+      "denied": 19,
+      "error": 1290,
+      "success": 15797,
+      "timeout": 112
+    }
+  },
+  "exp3_ablation": {
+    "corpus_size": 1000,
+    "path_distribution": {
+      "path1": 493,
+      "path2": 276,
+      "path3": 231
+    },
+    "component1_tri_level_routing": {
+      "deferred_calls_with_routing": 276,
+      "deferred_calls_without_routing": 1000,
+      "deferred_calls_saved": 493,
+      "savings_rate": 0.493,
+      "schema_tokens_estimated": 27350,
+      "tokens_saved_estimated": 13483550
+    },
+    "component2_deferred_detection": {
+      "full_cfta_first_response_sec": 9.3,
+      "no_deferred_sync_latency_sec": 21.32,
+      "latency_increase_without_sec": 12.02,
+      "reduction_pct": 54.1
+    }
+  }
+}

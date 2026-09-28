@@ -1,0 +1,35 @@
+{
+  "fast (≤0.5s)": {
+    "n": 1000,
+    "tool_dur_mean": 0.09,
+    "sync_mean": 19.17,
+    "cfta_mean": 9.54,
+    "reduction_pct_mean": 50.5,
+    "reduction_pct_median": 50.0,
+    "t": 24.91,
+    "p": 6.349e-107,
+    "population_share": 67.2
+  },
+  "medium (0.5–3.5s)": {
+    "n": 1000,
+    "tool_dur_mean": 1.22,
+    "sync_mean": 19.63,
+    "cfta_mean": 9.2,
+    "reduction_pct_mean": 55.8,
+    "reduction_pct_median": 54.0,
+    "t": 29.59,
+    "p": 1.157e-138,
+    "population_share": 21.3
+  },
+  "slow (>3.5s)": {
+    "n": 1000,
+    "tool_dur_mean": 25.37,
+    "sync_mean": 44.95,
+    "cfta_mean": 9.79,
+    "reduction_pct_mean": 74.1,
+    "reduction_pct_median": 72.9,
+    "t": 20.64,
+    "p": 3.941e-79,
+    "population_share": 11.5
+  }
+}

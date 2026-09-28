@@ -1,0 +1,40 @@
+{"prompt_id": "p001", "text": "播放语音：你好", "text_hash": "bdcc56f62f42", "primary_intent": "multimedia", "confidence": 0.803}
+{"prompt_id": "p002", "text": "你再检查下所有任务清单以及任务描述", "text_hash": "945610b4f158", "primary_intent": "life_management", "confidence": 0.803}
+{"prompt_id": "p003", "text": "做更详细的量化分析", "text_hash": "e3266fbff89a", "primary_intent": "financial_activity", "confidence": 0.804}
+{"prompt_id": "p004", "text": "今天苏州天气如何", "text_hash": "9467abec6b46", "primary_intent": "daily_assistant", "confidence": 0.805}
+{"prompt_id": "p005", "text": "非常好，不过我还需要OCR英文版原文的MD文件", "text_hash": "6d6db12b5952", "primary_intent": "file_operation", "confidence": 0.341}
+{"prompt_id": "p006", "text": "和初始化无关 请转成docx然后发我手机上", "text_hash": "407240eba3c6", "primary_intent": "document_assembly", "confidence": 0.813}
+{"prompt_id": "p007", "text": "PPT的排版比较单调，能否增加 左画右文(左侧一半全部用画填充)，上下布局，文+图+文，全屏背景+文字，等多样式,", "text_hash": "02deca3f4c6f", "primary_intent": "document_processing", "confidence": 0.813}
+{"prompt_id": "p008", "text": "回复不成功，你没有选中聊天消息并输入消息", "text_hash": "7be7ef92b7cb", "primary_intent": "communication", "confidence": 0.805}
+{"prompt_id": "p009", "text": "PRISMA需要同步更新吗？文章引用和参考文献呢？", "text_hash": "da4c81cbe06b", "primary_intent": "research", "confidence": 0.803}
+{"prompt_id": "p010", "text": "能把qoder窗口置前并截屏看下吗", "text_hash": "7cdc936900e3", "primary_intent": "system_admin", "confidence": 0.804}
+{"prompt_id": "p011", "text": "结合本案例，请详细介绍NVIVO为典型的质性研究项目中，一般有哪些概念和基本操作，请以一个研究小白为科普对象，输出一个HTML网站，介绍如何进行质性研究，介绍基础概念和基本操作。最好图文并茂（搜图下载），做一个质性研究的科普网站。", "text_hash": "74d6ecd5371d", "primary_intent": "browser_automation", "confidence": 0.82}
+{"prompt_id": "p012", "text": "江苏省中小学必读的诗歌有哪些？", "text_hash": "1cb7bbbcaa43", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p013", "text": "收取所有邮件", "text_hash": "8470b00f3a8e", "primary_intent": "email_task", "confidence": 0.84}
+{"prompt_id": "p014", "text": "本论文中的关于 论文地理分布的图表，能否改为 世界地图 +热力图，会不会更好？", "text_hash": "3b8c04fb94d0", "primary_intent": "data_analysis", "confidence": 0.812}
+{"prompt_id": "p015", "text": "什么是西蒙学习法", "text_hash": "e26dd454a72a", "primary_intent": "education", "confidence": 0.802}
+{"prompt_id": "p016", "text": "重启应用", "text_hash": "b2c8db7ab305", "primary_intent": "self_reflection", "confidence": 0.98}
+{"prompt_id": "p017", "text": "好的，要把监控结果发我手机上", "text_hash": "e4e71c5bc68e", "primary_intent": "system_monitoring", "confidence": 0.811}
+{"prompt_id": "p018", "text": "你好，晚上好帮我查一下那个香港的温度天气", "text_hash": "ecea91421df6", "primary_intent": "casual_chat", "confidence": 0.8}
+{"prompt_id": "p019", "text": "我看到有两条待办审批，是什么内容？", "text_hash": "de5588c9bc47", "primary_intent": "oa_office", "confidence": 0.8}
+{"prompt_id": "p020", "text": "请检索下历史聊天，看下曾经一共生成了多少篇论文", "text_hash": "7f166233655f", "primary_intent": "chat_history_retrieval", "confidence": 0.302}
+{"prompt_id": "p021", "text": "关闭生成空间这个子窗体", "text_hash": "23ca85458737", "primary_intent": "desktop_control", "confidence": 0.804}
+{"prompt_id": "p022", "text": "生成一个个人简历ppt模版，并发给我", "text_hash": "3b5a881722ab", "primary_intent": "professional_docs", "confidence": 0.35}
+{"prompt_id": "p023", "text": "请制作一个思维导图，将论文中的RQ1 RQ2 RQ3和六个主题以及子主题对齐", "text_hash": "27ae43b38434", "primary_intent": "creative_content", "confidence": 0.804}
+{"prompt_id": "p024", "text": "可以，执行代码生成PNG", "text_hash": "0fd5e6e3a05b", "primary_intent": "development", "confidence": 0.817}
+{"prompt_id": "p025", "text": "语音播放 李白的诗歌 静夜思，", "text_hash": "eb3b3bbf1cb5", "primary_intent": "multimedia", "confidence": 0.304}
+{"prompt_id": "p026", "text": "执行脚本并调试，确保脚本可行，可以进行多轮修订，最后得出脚本执行结果，以刚刚写作完成的论文作为检测对象。", "text_hash": "de8dc84a4901", "primary_intent": "life_management", "confidence": 0.301}
+{"prompt_id": "p027", "text": "帮我分析这几只A股的技术面：600519, 000858, 601318，筛选出看涨的股票", "text_hash": "08fbe5bbb92d", "primary_intent": "financial_activity", "confidence": 0.804}
+{"prompt_id": "p028", "text": "哎，帮我记录一个备忘事项，就是今年的二零二六年八月三十号要还招商银行的贷款本金二十五点五万，帮我做一个备忘提醒事项。", "text_hash": "d238b12fb948", "primary_intent": "daily_assistant", "confidence": 0.805}
+{"prompt_id": "p029", "text": "这个docx只有一个目录", "text_hash": "60a4504732ed", "primary_intent": "file_operation", "confidence": 0.312}
+{"prompt_id": "p030", "text": "表格直接在论文初稿中加入即可，不需要额外脚本。图片要插入，建议使用pandoc生成DOCX", "text_hash": "f04bc4f36e45", "primary_intent": "document_assembly", "confidence": 0.329}
+{"prompt_id": "p031", "text": "制作一个美女PPT", "text_hash": "2b9f0b37c624", "primary_intent": "document_processing", "confidence": 0.813}
+{"prompt_id": "p032", "text": "发微信给海澜，苏州天气", "text_hash": "7836a160388d", "primary_intent": "communication", "confidence": 0.315}
+{"prompt_id": "p033", "text": "如果要投稿heliyon，请推进phase 12", "text_hash": "e1a19ff7ea1b", "primary_intent": "research", "confidence": 0.801}
+{"prompt_id": "p034", "text": "请使用系统工具再做一次量化分析", "text_hash": "0ab25b65a109", "primary_intent": "system_admin", "confidence": 0.301}
+{"prompt_id": "p035", "text": "关闭 AI浏览器 子窗体", "text_hash": "7ba85626c34e", "primary_intent": "browser_automation", "confidence": 0.82}
+{"prompt_id": "p036", "text": "关闭 知识库 子窗体", "text_hash": "45806506b127", "primary_intent": "knowledge", "confidence": 0.802}
+{"prompt_id": "p037", "text": "我没有看到你完成这两步：\n邮箱地址填写\n✅ 已完成\n点击注册按钮\n✅ 已完成", "text_hash": "d112d650fee6", "primary_intent": "email_task", "confidence": 0.35}
+{"prompt_id": "p038", "text": "为第四章配上必要的图表", "text_hash": "6b73804ddf5c", "primary_intent": "data_analysis", "confidence": 0.806}
+{"prompt_id": "p039", "text": "来一个机场场景英语对话练习", "text_hash": "4c504245e4e4", "primary_intent": "education", "confidence": 0.802}
+{"prompt_id": "p040", "text": "人工智能赋能高校个性化学习路径研究 这个项目，按照英文论文，scoping literature review， 15个阶段撰写，重新启动", "text_hash": "0ed585f8c31d", "primary_intent": "self_reflection", "confidence": 0.98}
